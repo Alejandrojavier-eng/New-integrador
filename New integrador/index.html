@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador</title>
+    <link rel="stylesheet" href="styless.css">
+    <script src="https://kit.fontawesome.com/397ec3ae04.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container container__header">
+        <header class="header">
+            <div class="header__logo">
+                <img src="./img/imag-logo2.jpg" alt="logo-imagen" class="logo">
+            </div>
+            <nav class="navbar">
+                 <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+                 <input type="checkbox" name="" id="toggle-menu">
+                 <ul class="navbar__list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#tours">Tours</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                 </ul>
+            </nav>
+        </header>
+    
+        <div class="section-container">
+            <section class="section" id="inicio">
+                <div class="descripcion-container">
+                    <div class="text-container">
+                        <h2>Ven a conocer lo mejor de nuestro Pais.</h2>
+                        <h1>UN PARAISO TROPICAL.</h1>
+                        <p>Venezuela es un país muy apto para el desarrollo del ecoturismo, entre los principales destinos del turismo ecológico se pueden mencionar: Canaima, el estado Amazonas, Los Roques, Isla La Tortuga y San Pedro del Río.</p>
+                    </div>
+                    <div class="button-container">
+                        <button>Tours</button>
+                    </div>
+                </div>
+                <div class="inicio-img"></div>
+            </section>
+        </div>
+        <div class="section-container">
+            <section class="section" id="servicios">
+                <div class="servicios-img"></div> 
+                <div class="servicios-content">
+                    <h2 class="section-title">RoraimaTours</h2>
+                    <p class="section-p">
+                        Somos una empresa com mas de 10 años de servicios en el maravilloso mundo del turismo, contamos con personal biligues y capacitadas para brindar la mayor atencion posible.
+                    </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur at architecto enim blanditiis porro perferendis velit dolor nesciunt, tempora possimus aut autem voluptate quod dicta beatae itaque nulla in. Vero.</p>
+                    <div class="servicios-card-container">
+                        <div class="servicios-card">
+                            <span>Contamos Con:</span>
+                            <p class="section-p">Serv.Aereos</p>
+                        </div>
+                        <div class="servicios-card">
+                            <span>Transporte:</span>
+                            <p class="section-p">Nauticos</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="section-container">
+            <div class="section" id="tours">
+                <div class="title-container">
+                    <h2 class="section-title">Tours</h2>
+                    <button>Sumarse</button>
+                </div>
+                <div class="tours-card-container">
+                    <div class="tours-card">
+                        <div class="tours-card-img"></div>
+                    </div>
+                    <div class="tours-card">
+                        <div class="tours-card-img"></div>
+                       
+                    </div>
+                    <div class="tours-card">
+                        <div class="tours-card-img"></div>
+    
+                    </div>
+                    <div class="tours-card">
+                        <div class="tours-card-img"></div>
+                        
+                    </div>
+                    <div class="tours-card">
+                        <div class="tours-card-img"></div>
+                   
+                    </div>
+                    <div class="tours-card">
+                        <div class="tours-card-img"></div>
+                    
+                    </div>
+                    <div class="tours-card">
+                        <div class="tours-card-img"></div>
+                    
+                    </div>
+                    <div class="tours-card">
+                        <div class="tours-card-img"></div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-container">
+            <div class="section" id="login">
+                <div class="login-box">
+                    <h2>Registrarse</h2>
+                    <form>
+                        <label for="usuario">Usuario</label>
+                        <input type="text" placeholder=" Ingresar Usuario">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" placeholder=" Ingresar Contraseña">
+                        <input type="submit" value="log in">
+                        <a href="#">Perdio su Contraseña?</a>
+                        <a href="#">No tengo Cuenta </a>
+                    </form>
+                </div>
+                <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=margarita%20venezuela&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="iframe"></iframe>
+            </div>
+           
+        </section>
+        <section class="container">
+            <div class="section" id="contacto">
+                <div class="footer-line">
+                    <h2>Pampatar, Margarita</h2>
+                    <p>Av. Primero de Mayo con calle Libertador</p>
+                    <p>Edificio, Cisne Dorado, piso 1, Oficina 2-B</p>
+                    <P>Telf:+58 334-5647-2276</P>
+
+                </div>
+                <form class="formluario">
+                    <div class="formulario-container">
+                        <h2 class="formulario-titulo">Contáctame</h2>
+                        <input type="text" class="formulario-input" placeholder="Nombre">
+                        <input type="email" class="formulario-input" placeholder="Email">
+                        <textarea class="formulario-input formulario-input--mensaje" placeholder="Mensaje"></textarea>
+                        <input type="submit" value="Enviar" class="formulario-cta">
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+    </div>
+</body>
+</html>
